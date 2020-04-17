@@ -550,6 +550,7 @@ h<?xml version="1.0" encoding="utf-8"?>
         <item>/system/lib64/libRSDriver.so</item>
         <item>/system/lib64/libRSCpuRef.so</item>
         <item>/system/lib64/libblas.so</item>
+        <item>"/system/priv-app/SystemUI/oat/arm64/SystemUI.vdex"</item>
         <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
 
