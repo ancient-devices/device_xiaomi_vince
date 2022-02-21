@@ -1,12 +1,6 @@
 [
    {
       "remote":"github",
-      "repository":"ancient-devices/android_device_xiaomi_vince",
-      "target_path":"device/xiaomi/ginkgo",
-      "branch":"twelve-wip"
-   },
-   {
-      "remote":"github",
       "repository":"kutemeikito/vendor_xiaomi_vince",
       "target_path":"vendor/xiaomi/ginkgo",
       "branch":"twelve-wip"
