@@ -2,13 +2,13 @@
    {
       "remote":"github",
       "repository":"kutemeikito/vendor_xiaomi_vince",
-      "target_path":"vendor/xiaomi/ginkgo",
+      "target_path":"vendor/xiaomi/vince",
       "branch":"twelve-wip"
    },
    {
       "remote":"github",
       "repository":"kutemeikito/android_kernel_xiaomi_vince-4.9",
-      "target_path":"kernel/xiaomi/ginkgo",
+      "target_path":"kernel/xiaomi/vince",
       "branch":"VinceR"
    },
    {
