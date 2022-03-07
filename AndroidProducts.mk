@@ -21,4 +21,6 @@ COMMON_LUNCH_CHOICES := \
     ancient_vince-user \
     ancient_vince-userdebug \
     ancient_vince-eng \
-    vince-userdebug
+    vince-user \
+    vince-userdebug \
+    vince-eng
