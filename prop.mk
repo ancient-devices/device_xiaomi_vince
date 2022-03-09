@@ -266,29 +266,29 @@ ro.vendor.qti.va_odm.support=1
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-DEVICE_PROVISIONED=1 \
-persist.dbg.volte_avail_ovr=1 \
-persist.dbg.vt_avail_ovr=1 \
-persist.dbg.wfc_avail_ovr=1 \
 persist.radio.multisim.config=dsds \
-persist.radio.aosp_usr_pref_sel=true \
-persist.sys.fflag.override.settings_network_and_internet_v2=true \
 persist.vendor.radio.add_power_save=1 \
-persist.vendor.radio.aosp_usr_pref_sel=true \
 persist.vendor.radio.apm_sim_not_pwdn=1 \
 persist.vendor.radio.custom_ecc=1 \
 persist.vendor.radio.hw_mbn_update=0 \
+persist.vendor.radio.procedure_bytes=SKIP \
 persist.vendor.radio.rat_on=combine \
 persist.vendor.radio.sib16_support=1 \
-persist.vendor.data.iwlan.enable=true \
-ril.subscription.types=NV,RUIM \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
-ro.telephony.call_ring.multiple=false \
-ro.telephony.default_network=22,22 \
-ro.telephony.iwlan_operation_mode=legacy \
-ro.telephony.use_old_mnc_mcc_format=true \
-service.qti.ims.enabled=1 \
 vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
+
+# Radio (IMS)
+PRODUCT_PROPERTY_OVERRIDES += \
+service.qti.ims.enabled=1 \
+persist.dbg.volte_avail_ovr=1 \
+persist.dbg.vt_avail_ovr=1 \
+persist.dbg.wfc_avail_ovr=1 \
+persist.vendor.ims.disableIMSLogs=1 \
+persist.vendor.ims.disableADBLogs=1 \
+persist.vendor.ims.disableDebugDataPathLogs=1 \
+persist.vendor.ims.disableDebugLogs=1 \
+persist.vendor.ims.disableSigHandler=1 \
+persist.vendor.ims.disableQXDMLogs=1
 
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
