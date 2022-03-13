@@ -44,8 +44,7 @@ ANCIENT_OFFICIAL ?= true
 ANCIENT_GAPPS ?= true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-USE_PIXEL_CHARGING := true
-TARGET_USES_BLUR := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 PIXEL_STUFF := true
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
